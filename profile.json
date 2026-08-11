@@ -1,0 +1,213 @@
+{
+  "site": {
+    "title": "Arnab Kayal | Academic Portfolio",
+    "description": "Academic portfolio of Arnab Kayal, Assistant Professor of Mathematics, featuring research, publications, teaching, awards, and academic experience.",
+    "lastUpdated": "August 2026"
+  },
+  "profile": {
+    "name": "Arnab Kayal",
+    "shortName": "AK",
+    "role": "Assistant Professor",
+    "institution": "Vellore Institute of Technology (VIT) Chennai",
+    "institutionUrl": "https://chennai.vit.ac.in/",
+    "location": "Chennai, India",
+    "email": "arnab.kayal@gmail.com",
+    "phone": "+91 90931 29375",
+    "phoneLink": "+919093129375",
+    "orcid": "0009-0004-1568-2750",
+    "orcidUrl": "https://orcid.org/0009-0004-1568-2750",
+    "googleScholarUrl": "https://scholar.google.com/citations?user=c1QnK-QAAAAJ&hl=en&oi=ao",
+    "scopusUrl": "https://www.scopus.com/authid/detail.uri?authorId=57925323500",
+    "researchGateUrl": "https://www.researchgate.net/profile/Arnab-Kayal",
+    "mathSciNetUrl": "https://mathscinet.ams.org/mathscinet/author?authorId=1530824",
+    "photo": "assets/arnab-kayal-professional.png",
+    "photoWebp": "assets/arnab-kayal-professional.webp",
+    "photoWebpSmall": "assets/arnab-kayal-professional-420.webp",
+    "cover": "assets/research-cover.png",
+    "coverWebp": "assets/research-cover.webp",
+    "coverWebpSmall": "assets/research-cover-840.webp",
+    "cv": "assets/Arnab_Kayal_CV.pdf",
+    "intro": "My research focuses on developing spectral projection methods for solving integral and integro-differential equations. I also study spectral approximations of integral operators; neural integral and integral and integro-differential equations with spectral solvers.",
+    "researchLine": "Spectral Projection Methods · Integral Equations · Scientific Computing"
+  },
+  "research": {
+    "broadArea": "Numerical Functional Analysis and Scientific Computing",
+    "interests": [
+      "Spectral projection methods for integral, integro-differential and fractional differential equations",
+      "Spectral approximation of integral operators",
+      "Neural integral and integro-differential equations with spectral solvers"
+    ]
+  },
+  "experience": [
+    {
+      "role": "Assistant Professor",
+      "institution": "Vellore Institute of Technology (VIT) Chennai",
+      "institutionUrl": "https://chennai.vit.ac.in/",
+      "location": "Chennai, India",
+      "period": "Current"
+    },
+    {
+      "role": "Project Associate",
+      "institution": "Indian Institute of Technology Jodhpur",
+      "institutionUrl": "https://www.iitj.ac.in/",
+      "location": "Jodhpur, India",
+      "period": "Aug. 2025 - Jan. 2026"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. in Mathematics",
+      "institution": "Indian Institute of Technology Jodhpur",
+      "institutionUrl": "https://www.iitj.ac.in/",
+      "location": "Jodhpur, India",
+      "period": "Sept. 2020 - Nov. 2025",
+      "details": ["Coursework CGPA: 8.23"],
+      "thesis": "Spectral Projection Methods for Integral and Integro-Differential Equations",
+      "advisor": "Dr. Moumita Mandal",
+      "advisorUrl": "https://sites.google.com/view/moumitamandal/home"
+    },
+    {
+      "degree": "Master of Science in Mathematics",
+      "institution": "Indian Institute of Technology Hyderabad",
+      "institutionUrl": "https://www.iith.ac.in/",
+      "location": "Hyderabad, India",
+      "period": "2019",
+      "details": ["CGPA: 8.00"],
+      "thesis": "Sobolev Space on Riemannian Manifolds",
+      "thesisUrl": "https://raiith.krc.iith.ac.in/handle/123456789/55147",
+      "advisor": "Dr. Bhakti Bhusan Manna",
+      "advisorUrl": "https://www.iith.ac.in/math/bbmanna/"
+    },
+    {
+      "degree": "Bachelor of Science with Honours in Mathematics",
+      "institution": "University of Calcutta",
+      "institutionUrl": "https://www.caluniv.ac.in/",
+      "location": "Kolkata, India",
+      "period": "2017",
+      "details": ["Percentage: 66.50"]
+    },
+    {
+      "degree": "Higher Secondary Education",
+      "institution": "Sarisha Ramakrishna Mission Sikshamandir",
+      "location": "Sarisha, India",
+      "period": "2013",
+      "details": ["Percentage: 78.20"]
+    },
+    {
+      "degree": "Secondary Education",
+      "institution": "Sarisha Ramakrishna Mission Sikshamandir",
+      "location": "Sarisha, India",
+      "period": "2011",
+      "details": ["Percentage: 77.50"]
+    }
+  ],
+  "publications": [
+    {
+      "authors": "Kayal, A., & Mandal, M.",
+      "year": "2025",
+      "title": "Superconvergent method for weakly singular Fredholm-Hammerstein integral equations with non-smooth solutions and its application",
+      "journal": "Applied Numerical Mathematics",
+      "volume": "207",
+      "pages": "24-44",
+      "quartile": "Q1",
+      "url": "https://doi.org/10.1016/j.apnum.2024.08.018"
+    },
+    {
+      "authors": "Gupta, S., Kayal, A., & Mandal, M.",
+      "year": "2025",
+      "title": "Superconvergence results for hypersingular integral equation of first kind by Chebyshev spectral projection methods",
+      "journal": "Applied Mathematics and Computation",
+      "volume": "487",
+      "pages": "129093",
+      "quartile": "Q1",
+      "url": "https://doi.org/10.1016/j.amc.2024.129093"
+    },
+    {
+      "authors": "Kayal, A., & Mandal, M.",
+      "year": "2024",
+      "title": "A new approach of shifted Jacobi spectral Galerkin methods (SJSGM) for weakly singular Fredholm integral equation with non-smooth solution",
+      "journal": "Numerical Algorithms",
+      "volume": "96(4)",
+      "pages": "1553-1582",
+      "quartile": "Q1",
+      "url": "https://doi.org/10.1007/s11075-023-01677-9"
+    },
+    {
+      "authors": "Kayal, A., Mandal, M., & Nelakanti, G.",
+      "year": "2024",
+      "title": "Superconvergence of Legendre spectral projection methods for mth order integro-differential equations with weakly singular kernels",
+      "journal": "Journal of Computational and Applied Mathematics",
+      "volume": "439",
+      "pages": "115585",
+      "quartile": "Q1",
+      "url": "https://doi.org/10.1016/j.cam.2023.115585"
+    },
+    {
+      "authors": "Mandal, M., Kayal, A., & Nelakanti, G.",
+      "year": "2023",
+      "title": "Projection methods for approximate solution of a class of nonlinear Fredholm integro-differential equations",
+      "journal": "Applied Numerical Mathematics",
+      "volume": "184",
+      "pages": "49-76",
+      "quartile": "Q1",
+      "url": "https://doi.org/10.1016/j.apnum.2022.09.019"
+    }
+  ],
+  "awards": [
+    {"title": "National Post Doctoral Fellowship 2026", "detail": "Awarded", "date": "Jul. 2026"},
+    {"title": "Indian Institute of Technology (BHU) Varanasi, Institute Post Doctoral Fellowship 2026", "detail": "Awarded", "date": "Mar. 2026"},
+    {"title": "GATE  Research Fellowship", "detail": "For Ph.D. at IIT Jodhpur", "date": "Sept. 2020 - Aug. 2025"},
+    {"title": "Graduate Aptitude Test in Engineering (GATE)", "detail": "All India Rank: 363", "date": "Mar. 2020"},
+    {"title": "CSIR-UGC NET", "detail": "All India Rank: 20", "date": "Dec. 2019"},
+    {"title": "Merit Cum Means Scholarship", "detail": "IIT Hyderabad, during M.Sc.", "date": "2017 - 2019"},
+    {"title": "IIT-JAM", "detail": "All India Rank: 285", "date": "Mar. 2017"},
+    {"title": "Merit Cum Means Scholarship", "detail": "Government of West Bengal, India", "date": ""}
+  ],
+  "conferences": [
+    {
+      "talk": "Spectral Projection Methods for Fredholm IEs with an Algebraic Weakly Singular Kernel",
+      "event": "Third Meeting Gruppo di Attività ANA&A - SIMAI",
+      "eventUrl": "https://sites.google.com/uninettunouniversity.net/gdasimaianaa3/home?authuser=0",
+      "location": "Online · Salerno, Italy",
+      "date": "May 15-16, 2025"
+    },
+    {
+      "talk": "Superconvergence Results for Solving Linear Weakly Singular Fredholm Integral Equations",
+      "event": "International Conference on Matrix Analysis and Mathematical Modelling 2024",
+      "eventUrl": "https://v1.nitj.ac.in/MAMM2024/",
+      "location": "NIT Jalandhar, India",
+      "date": "Nov. 29 - Dec. 1, 2024"
+    },
+    {
+      "talk": "Legendre Spectral Projection Methods for Solving System of n-th Order Integro-differential Equations with Cauchy Kernel",
+      "event": "International Conference on Spectral and High Order Methods 2023",
+      "eventUrl": "https://icosahom2023.org/",
+      "location": "Yonsei University · Seoul, Korea",
+      "date": "Aug. 14-18, 2023"
+    }
+  ],
+  "workshops": [
+    {"text": "Presented ‘Spectral Projection Methods for Integral and Integro-Differential Equations’ at IIT Jodhpur.", "date": "Feb. 10, 2025"},
+    {"text": "Presented ‘Discrete projection methods for solving 2nd kind integral equations’ at IIT Jodhpur.", "date": "Jan. 12, 2023"},
+    {"text": "Presented ‘Error Bound and Convergence Analysis of Integro-Differential Equations by Spectral Projection Methods’ at IIT Jodhpur.", "date": "Feb. 22, 2022"},
+    {"text": "Attended Teacher’s Enrichment Workshop on ‘Functional Analysis’, organised by University of Kashmir, India.", "date": "Nov. 28 - Dec. 12, 2021"},
+    {"text": "Attended Teacher’s Enrichment Workshop on ‘Linear Algebra & its applications’, organised by IIT Jodhpur, India.", "date": "Nov. 19 - Dec. 13, 2020"}
+  ],
+  "teaching": [
+    {"course": "Mathematics-II", "code": "MAL1020", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Jan. - Apr. 2025"},
+    {"course": "Topology", "code": "", "audience": "AFS-1 · IIT Jodhpur", "term": "Dec. 2024"},
+    {"course": "Programming Techniques", "code": "MAL5020", "audience": "M.Sc. · IIT Jodhpur", "term": "Aug. - Nov. 2024"},
+    {"course": "Linear Algebra for Data Science", "code": "MAL7050", "audience": "M.Tech.-Executive · IIT Jodhpur", "term": "Aug. - Nov. 2024"},
+    {"course": "Calculus of Variations and Integral Equations", "code": "MAL7310", "audience": "M.Sc. · IIT Jodhpur", "term": "Jan. - Apr. 2024"},
+    {"course": "Linear Algebra for Data Science", "code": "MAL7050", "audience": "M.Tech.-Executive · IIT Jodhpur", "term": "Aug. - Nov. 2023"},
+    {"course": "Programming Techniques", "code": "MAL5020", "audience": "M.Sc. · IIT Jodhpur", "term": "Aug. - Nov. 2023"},
+    {"course": "Mathematics-II", "code": "MAL1020", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Jan. - Apr. 2023"},
+    {"course": "Mathematics-I", "code": "MAL1010", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Aug. - Nov. 2022"},
+    {"course": "Mathematics-II", "code": "MAL1020", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Jan. - Apr. 2022"},
+    {"course": "Mathematics-I", "code": "MAL1010", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Aug. - Nov. 2021"}
+  ],
+  "skills": ["MATLAB", "Python", "C", "C++", "LaTeX"],
+  "languages": ["English", "Bengali", "Hindi"],
+  "customSections": [],
+  "gallery": []
+}
