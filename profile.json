@@ -155,7 +155,7 @@
   ],
   "awards": [
     {"title": "National Post Doctoral Fellowship 2026", "detail": "Awarded", "date": "Jul. 2026"},
-    {"title": "Indian Institute of Technology (BHU) Varanasi, Institute Post Doctoral Fellowship 2026", "detail": "Awarded", "date": "Mar. 2026"},
+    {"title": "Indian Institute of Technology (BHU) Varanasi, Institute Post Doctoral Fellowship 2026", "date": "Mar. 2026"},
     {"title": "GATE  Research Fellowship", "detail": "For Ph.D. at IIT Jodhpur", "date": "Sept. 2020 - Aug. 2025"},
     {"title": "Graduate Aptitude Test in Engineering (GATE)", "detail": "All India Rank: 363", "date": "Mar. 2020"},
     {"title": "CSIR-UGC NET", "detail": "All India Rank: 20", "date": "Dec. 2019"},
@@ -163,7 +163,16 @@
     {"title": "IIT-JAM", "detail": "All India Rank: 285", "date": "Mar. 2017"},
     {"title": "Merit Cum Means Scholarship", "detail": "Government of West Bengal, India", "date": ""}
   ],
-  "conferences": [
+  "invitedTalks": [
+    {
+      "talk": "MATLAB Implementation of Projection Methods for Second Kind Integral Equations",
+      "event": "WAMIEA-2026",
+      "eventUrl": "https://www.iitj.ac.in/mathematics/en/latest-news?dsl=2&dslID=7c332bfe-4310-408d-a43f-477ef72b5bae",
+      "location": "IIT Jodhpur, India",
+      "date": "Aug. 17-19, 2026"
+    }
+  ],
+  "contributoryTalks": [
     {
       "talk": "Spectral Projection Methods for Fredholm IEs with an Algebraic Weakly Singular Kernel",
       "event": "Third Meeting Gruppo di Attività ANA&A - SIMAI",
@@ -186,10 +195,12 @@
       "date": "Aug. 14-18, 2023"
     }
   ],
-  "workshops": [
+  "seminarPresentations": [
     {"text": "Presented ‘Spectral Projection Methods for Integral and Integro-Differential Equations’ at IIT Jodhpur.", "date": "Feb. 10, 2025"},
     {"text": "Presented ‘Discrete projection methods for solving 2nd kind integral equations’ at IIT Jodhpur.", "date": "Jan. 12, 2023"},
-    {"text": "Presented ‘Error Bound and Convergence Analysis of Integro-Differential Equations by Spectral Projection Methods’ at IIT Jodhpur.", "date": "Feb. 22, 2022"},
+    {"text": "Presented ‘Error Bound and Convergence Analysis of Integro-Differential Equations by Spectral Projection Methods’ at IIT Jodhpur.", "date": "Feb. 22, 2022"}
+  ],
+  "workshops": [
     {"text": "Attended Teacher’s Enrichment Workshop on ‘Functional Analysis’, organised by University of Kashmir, India.", "date": "Nov. 28 - Dec. 12, 2021"},
     {"text": "Attended Teacher’s Enrichment Workshop on ‘Linear Algebra & its applications’, organised by IIT Jodhpur, India.", "date": "Nov. 19 - Dec. 13, 2020"}
   ],

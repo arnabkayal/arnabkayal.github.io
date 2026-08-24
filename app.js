@@ -62,22 +62,29 @@ function render(data) {
     )
     .join("");
 
-  const conferences = data.conferences
-    .map(
-      (item) => `<tr>
-        <td class="yr">${escapeHtml(item.date)}</td>
-        <td><b>“${escapeHtml(item.talk)}”</b>
-          <span class="sub">${link(item.event, item.eventUrl)} · ${escapeHtml(item.location)}</span>
-        </td>
-      </tr>`,
-    )
-    .join("");
+  const renderTalks = (items = []) =>
+    items
+      .map(
+        (item) => `<tr>
+          <td class="yr">${escapeHtml(item.date)}</td>
+          <td><b>“${escapeHtml(item.talk)}”</b>
+            <span class="sub">${link(item.event, item.eventUrl)} · ${escapeHtml(item.location)}</span>
+          </td>
+        </tr>`,
+      )
+      .join("");
 
-  const workshops = data.workshops
-    .map(
-      (item) => `<tr><td class="yr">${escapeHtml(item.date)}</td><td>${escapeHtml(item.text)}</td></tr>`,
-    )
-    .join("");
+  const renderActivities = (items = []) =>
+    items
+      .map(
+        (item) => `<tr><td class="yr">${escapeHtml(item.date)}</td><td>${escapeHtml(item.text)}</td></tr>`,
+      )
+      .join("");
+
+  const invitedTalks = renderTalks(data.invitedTalks);
+  const contributoryTalks = renderTalks(data.contributoryTalks);
+  const seminarPresentations = renderActivities(data.seminarPresentations);
+  const workshops = renderActivities(data.workshops);
 
   const teaching = data.teaching
     .map(
@@ -140,7 +147,7 @@ function render(data) {
       <div class="cover-overlay" aria-hidden="true"></div>
       <div class="wrap cover-content">
         <h1>${escapeHtml(p.name)}</h1>
-        <p class="cover-role">${escapeHtml(p.role)} <span>·</span> Mathematics</p>
+        <p class="cover-role">${escapeHtml(p.role)} <span>·</span> VIT Chennai <span>·</span> Mathematics</p>
         <p class="cover-focus">${escapeHtml(p.researchLine)}</p>
       </div>
     </header>
@@ -208,9 +215,13 @@ function render(data) {
       </section>
 
       <section class="panel" id="p-conferences" role="tabpanel" aria-labelledby="t-conferences" hidden>
-        <h2>Conference Talks</h2>
-        <table class="rec"><tbody>${conferences}</tbody></table>
-        <h2>Workshops and Seminars</h2>
+        <h2>Invited Talk</h2>
+        <table class="rec"><tbody>${invitedTalks}</tbody></table>
+        <h2>Contributed Talk</h2>
+        <table class="rec"><tbody>${contributoryTalks}</tbody></table>
+        <h2>Seminar Presentation</h2>
+        <table class="rec"><tbody>${seminarPresentations}</tbody></table>
+        <h2>Workshop/Summer School</h2>
         <table class="rec"><tbody>${workshops}</tbody></table>
       </section>
 
@@ -246,7 +257,7 @@ function render(data) {
     </div></main>
 
     <footer><div class="wrap"><span>© ${new Date().getFullYear()} ${escapeHtml(p.name)}</span>
-      <span>${escapeHtml(p.role)} · Mathematics · Last updated ${escapeHtml(data.site.lastUpdated)}</span></div></footer>
+      <span>${escapeHtml(p.role)} · VIT Chennai · Mathematics · Last updated ${escapeHtml(data.site.lastUpdated)}</span></div></footer>
   `;
 
   document.title = data.site.title;
