@@ -103,6 +103,16 @@
   ],
   "publications": [
     {
+      "authors": "Gupta, S., Kayal, A., & Mandal, M.",
+      "year": "2025",
+      "title": "Chebyshev Spectral Methods for Cauchy Singular Integral Equations with Indexes {-1,0,1} and Their Superconvergence",
+      "journal": "Applied Numerical Mathematics",
+      "volume": "207",
+      "pages": "24-44",
+      "quartile": "Q1",
+      "url": "https://doi.org/10.1016/j.apnum.2024.08.018"
+    },    
+    {
       "authors": "Kayal, A., & Mandal, M.",
       "year": "2025",
       "title": "Superconvergent method for weakly singular Fredholm-Hammerstein integral equations with non-smooth solutions and its application",
@@ -114,13 +124,13 @@
     },
     {
       "authors": "Gupta, S., Kayal, A., & Mandal, M.",
-      "year": "2025",
+      "year": "2027",
       "title": "Superconvergence results for hypersingular integral equation of first kind by Chebyshev spectral projection methods",
-      "journal": "Applied Mathematics and Computation",
-      "volume": "487",
-      "pages": "129093",
+      "journal": "Journal of Computational and Applied Mathematics",
+      "volume": " ",
+      "pages": "(Accepted)",
       "quartile": "Q1",
-      "url": "https://doi.org/10.1016/j.amc.2024.129093"
+      "url": " "
     },
     {
       "authors": "Kayal, A., & Mandal, M.",
