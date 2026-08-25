@@ -104,13 +104,13 @@
   "publications": [
     {
       "authors": "Gupta, S., Kayal, A., & Mandal, M.",
-      "year": "2025",
+      "year": "2027",
       "title": "Chebyshev Spectral Methods for Cauchy Singular Integral Equations with Indexes {-1,0,1} and Their Superconvergence",
-      "journal": "Applied Numerical Mathematics",
-      "volume": "207",
-      "pages": "24-44",
+      "journal": "Journal of Computational and Applied Mathematics",
+      "volume": " ",
+      "pages": "(Accepted)",
       "quartile": "Q1",
-      "url": "https://doi.org/10.1016/j.apnum.2024.08.018"
+      "url": " "
     },    
     {
       "authors": "Kayal, A., & Mandal, M.",
