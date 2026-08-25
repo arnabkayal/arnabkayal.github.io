@@ -21,6 +21,11 @@ const mail = (address) =>
   `<a href="mailto:${href(address)}">${escapeHtml(address)}</a>`;
 const phone = (label, number) =>
   `<a href="tel:${href(number)}">${escapeHtml(label)}</a>`;
+const formatPublicationAuthors = (value = "") =>
+  String(value)
+    .split("Kayal, A.")
+    .map(escapeHtml)
+    .join("<b>Kayal, A.</b>");
 
 function render(data) {
   const p = data.profile;
@@ -53,9 +58,9 @@ function render(data) {
     .map(
       (item, index) => `<tr>
         <td class="no">${index + 1}.</td>
-        <td>${escapeHtml(item.authors)} (${escapeHtml(item.year)}).
+        <td>${formatPublicationAuthors(item.authors)} (${escapeHtml(item.year)}).
           “${link(item.title, item.url)}.”
-          <b>${escapeHtml(item.journal)}</b>, ${escapeHtml(item.volume)}, ${escapeHtml(item.pages)}.
+          <b>${escapeHtml(item.journal)}</b>${item.volume?.trim() ? `, ${escapeHtml(item.volume)}` : ""}${item.pages?.trim() ? `, ${escapeHtml(item.pages)}` : ""}.
           ${item.quartile ? `<span class="tag">${escapeHtml(item.quartile)}</span>` : ""}
         </td>
       </tr>`,
