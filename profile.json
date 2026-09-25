@@ -1,8 +1,7 @@
 {
   "site": {
-    "title": "Arnab Kayal | Academic Portfolio",
-    "description": "Academic portfolio of Arnab Kayal, Assistant Professor of Mathematics, featuring research, publications, teaching, awards, and academic experience.",
-    "lastUpdated": "August 2026"
+    "title": "Arnab Kayal | অর্ণব কয়াল",
+    "description": "Academic portfolio of Arnab Kayal."
   },
   "profile": {
     "name": "Arnab Kayal",
@@ -110,7 +109,7 @@
       "volume": "(Accepted)",
       "pages": "",
       "quartile": "Q1",
-      "url": ""
+      "url": "https://doi.org/10.1016/j.cam.2026.118096"
     },
     {
       "authors": "Kayal, A., & Mandal, M.",
@@ -165,7 +164,7 @@
   ],
   "awards": [
     {"title": "National Post Doctoral Fellowship 2026", "detail": "Awarded", "date": "Jul. 2026"},
-    {"title": "Indian Institute of Technology (BHU) Varanasi, Institute Post Doctoral Fellowship 2026", "date": "Mar. 2026"},
+    {"title": "Indian Institute of Technology (BHU) Varanasi, Institute Post Doctoral Fellowship 2026", "date": ""},
     {"title": "GATE  Research Fellowship", "detail": "For Ph.D. at IIT Jodhpur", "date": "Sept. 2020 - Aug. 2025"},
     {"title": "Graduate Aptitude Test in Engineering (GATE)", "detail": "All India Rank: 363", "date": "Mar. 2020"},
     {"title": "CSIR-UGC NET", "detail": "All India Rank: 20", "date": "Dec. 2019"},
@@ -214,18 +213,23 @@
     {"text": "Attended Teacher’s Enrichment Workshop on ‘Functional Analysis’, organised by University of Kashmir, India.", "date": "Nov. 28 - Dec. 12, 2021"},
     {"text": "Attended Teacher’s Enrichment Workshop on ‘Linear Algebra & its applications’, organised by IIT Jodhpur, India.", "date": "Nov. 19 - Dec. 13, 2020"}
   ],
+  "teachingAtVit": [
+    {"course": "Multivariable Calculus and Differential Equations", "code": "BAMAT101", "audience": "B.Tech · Theory", "term": "Fall Semester, 2026-27"},
+    {"course": "Multivariable Calculus and Differential Equations", "code": "BAMAT101", "audience": "B.Tech · Lab", "term": "Fall Semester, 2026-27"},
+    {"course": "Discrete Mathematics and Graph Theory", "code": "IAMAT202", "audience": "Integrated M.Tech. · Theory", "term": "Fall Semester, 2026-27"}
+  ],
   "teaching": [
-    {"course": "Mathematics-II", "code": "MAL1020", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Jan. - Apr. 2025"},
-    {"course": "Topology", "code": "", "audience": "AFS-1 · IIT Jodhpur", "term": "Dec. 2024"},
-    {"course": "Programming Techniques", "code": "MAL5020", "audience": "M.Sc. · IIT Jodhpur", "term": "Aug. - Nov. 2024"},
-    {"course": "Linear Algebra for Data Science", "code": "MAL7050", "audience": "M.Tech.-Executive · IIT Jodhpur", "term": "Aug. - Nov. 2024"},
-    {"course": "Calculus of Variations and Integral Equations", "code": "MAL7310", "audience": "M.Sc. · IIT Jodhpur", "term": "Jan. - Apr. 2024"},
-    {"course": "Linear Algebra for Data Science", "code": "MAL7050", "audience": "M.Tech.-Executive · IIT Jodhpur", "term": "Aug. - Nov. 2023"},
-    {"course": "Programming Techniques", "code": "MAL5020", "audience": "M.Sc. · IIT Jodhpur", "term": "Aug. - Nov. 2023"},
-    {"course": "Mathematics-II", "code": "MAL1020", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Jan. - Apr. 2023"},
-    {"course": "Mathematics-I", "code": "MAL1010", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Aug. - Nov. 2022"},
-    {"course": "Mathematics-II", "code": "MAL1020", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Jan. - Apr. 2022"},
-    {"course": "Mathematics-I", "code": "MAL1010", "audience": "B.Tech. 1st year · IIT Jodhpur", "term": "Aug. - Nov. 2021"}
+    {"course": "Mathematics-II", "code": "MAL1020", "audience": "B.Tech. 1st year", "term": "Jan. - Apr. 2025"},
+    {"course": "Topology", "code": "", "audience": "AFS-1", "term": "Dec. 2024"},
+    {"course": "Programming Techniques", "code": "MAL5020", "audience": "M.Sc.", "term": "Aug. - Nov. 2024"},
+    {"course": "Linear Algebra for Data Science", "code": "MAL7050", "audience": "M.Tech.-Executive", "term": "Aug. - Nov. 2024"},
+    {"course": "Calculus of Variations and Integral Equations", "code": "MAL7310", "audience": "M.Sc.", "term": "Jan. - Apr. 2024"},
+    {"course": "Linear Algebra for Data Science", "code": "MAL7050", "audience": "M.Tech.-Executive", "term": "Aug. - Nov. 2023"},
+    {"course": "Programming Techniques", "code": "MAL5020", "audience": "M.Sc.", "term": "Aug. - Nov. 2023"},
+    {"course": "Mathematics-II", "code": "MAL1020", "audience": "B.Tech. 1st year", "term": "Jan. - Apr. 2023"},
+    {"course": "Mathematics-I", "code": "MAL1010", "audience": "B.Tech. 1st year", "term": "Aug. - Nov. 2022"},
+    {"course": "Mathematics-II", "code": "MAL1020", "audience": "B.Tech. 1st year", "term": "Jan. - Apr. 2022"},
+    {"course": "Mathematics-I", "code": "MAL1010", "audience": "B.Tech. 1st year", "term": "Aug. - Nov. 2021"}
   ],
   "skills": ["MATLAB", "Python", "C", "C++", "LaTeX"],
   "languages": ["English", "Bengali", "Hindi"],

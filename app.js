@@ -29,6 +29,10 @@ const formatPublicationAuthors = (value = "") =>
 
 function render(data) {
   const p = data.profile;
+  const lastUpdated = new Intl.DateTimeFormat("en-US", {
+    month: "long",
+    year: "numeric",
+  }).format(new Date());
 
   const briefCv = [
     ...data.experience.map(
@@ -91,16 +95,20 @@ function render(data) {
   const seminarPresentations = renderActivities(data.seminarPresentations);
   const workshops = renderActivities(data.workshops);
 
-  const teaching = data.teaching
-    .map(
-      (item) => `<tr>
-        <td class="yr">${escapeHtml(item.term)}</td>
-        <td><b>${escapeHtml(item.course)}</b>${item.code ? ` (${escapeHtml(item.code)})` : ""}
-          <span class="sub">${escapeHtml(item.audience)}</span>
-        </td>
-      </tr>`,
-    )
-    .join("");
+  const renderTeaching = (items = []) =>
+    items
+      .map(
+        (item) => `<tr>
+          <td class="yr">${escapeHtml(item.term)}</td>
+          <td><b>${escapeHtml(item.course)}</b>${item.code ? ` (${escapeHtml(item.code)})` : ""}
+            ${item.audience ? `<span class="sub">${escapeHtml(item.audience)}</span>` : ""}
+          </td>
+        </tr>`,
+      )
+      .join("");
+
+  const teachingAtVit = renderTeaching(data.teachingAtVit);
+  const teaching = renderTeaching(data.teaching);
 
   const education = data.education
     .map(
@@ -145,11 +153,6 @@ function render(data) {
 
   root.innerHTML = `
     <header class="cover">
-      <picture class="cover-picture" aria-hidden="true">
-        <source type="image/webp" srcset="${asset(p.coverWebpSmall)} 840w, ${asset(p.coverWebp)} 1672w" sizes="100vw" />
-        <img class="cover-image" src="${asset(p.cover)}" alt="" width="1672" height="941" decoding="async" fetchpriority="high" />
-      </picture>
-      <div class="cover-overlay" aria-hidden="true"></div>
       <div class="wrap cover-content">
         <h1>${escapeHtml(p.name)}</h1>
         <p class="cover-role">${escapeHtml(p.role)} <span>·</span> VIT Chennai <span>·</span> Mathematics</p>
@@ -231,7 +234,9 @@ function render(data) {
       </section>
 
       <section class="panel" id="p-teaching" role="tabpanel" aria-labelledby="t-teaching" hidden>
-        <h2>Teaching Assistant / Tutor Experience</h2>
+        <h2>Sole Instructor at VIT Chennai</h2>
+        <table class="rec teaching-list"><tbody>${teachingAtVit}</tbody></table>
+        <h2>Teaching Assistant / Tutor at IIT Jodhpur</h2>
         <table class="rec teaching-list"><tbody>${teaching}</tbody></table>
         <h2>Technical Skills</h2>
         <p>${data.skills.map(escapeHtml).join(" · ")}</p>
@@ -262,7 +267,7 @@ function render(data) {
     </div></main>
 
     <footer><div class="wrap"><span>© ${new Date().getFullYear()} ${escapeHtml(p.name)}</span>
-      <span>${escapeHtml(p.role)} · VIT Chennai · Mathematics · Last updated ${escapeHtml(data.site.lastUpdated)}</span></div></footer>
+      <span>${escapeHtml(p.role)} · VIT Chennai · Mathematics · Last updated ${escapeHtml(lastUpdated)}</span></div></footer>
   `;
 
   document.title = data.site.title;
