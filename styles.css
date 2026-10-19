@@ -5,8 +5,8 @@
   --ocean-deep: #071d30;
   --teal: #0c8794;
   --teal-dark: #086875;
-  --coral: #e46f50;
-  --coral-dark: #be5439;
+  --sage: #7f9a83;
+  --sage-dark: #526b58;
   --paper: #eef4f6;
   --surface: #ffffff;
   --surface-soft: #f7fafb;
@@ -61,7 +61,7 @@ td,
 }
 
 a:hover {
-  color: var(--coral-dark);
+  color: var(--sage-dark);
   text-decoration: underline;
 }
 
@@ -87,7 +87,7 @@ a:hover {
   bottom: 0;
   left: 0;
   height: 5px;
-  background: linear-gradient(90deg, var(--coral) 0 34%, var(--teal) 34% 100%);
+  background: linear-gradient(90deg, var(--sage) 0 34%, var(--teal) 34% 100%);
   content: "";
 }
 
@@ -125,7 +125,7 @@ a:hover {
 
 .cover-role span {
   margin: 0 8px;
-  color: var(--coral);
+  color: var(--sage);
 }
 
 .cover-focus {
@@ -176,7 +176,7 @@ a:hover {
 }
 
 .tab.on {
-  border-bottom-color: var(--coral);
+  border-bottom-color: var(--sage);
   background: var(--surface);
   color: var(--ocean-deep);
   font-weight: 800;
@@ -218,7 +218,7 @@ h2::after {
   width: 72px;
   height: 3px;
   border-radius: 99px;
-  background: linear-gradient(90deg, var(--coral), var(--teal));
+  background: linear-gradient(90deg, var(--sage), var(--teal));
   content: "";
 }
 
@@ -271,8 +271,8 @@ ul.list li::before {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: var(--coral);
-  box-shadow: 0 0 0 4px rgba(228, 111, 80, 0.12);
+  background: var(--sage);
+  box-shadow: 0 0 0 4px rgba(127, 154, 131, 0.12);
   content: "";
 }
 
@@ -318,7 +318,7 @@ ul.list span.sub {
 
 .profile .who .role {
   margin: 4px 0 13px;
-  color: var(--coral-dark);
+  color: var(--sage-dark);
   font-size: 16.5px;
   font-weight: 700;
 }
@@ -396,7 +396,7 @@ ul.list span.sub {
 }
 
 .scopus-icon {
-  --icon-color: #e9711c;
+  --icon-color: var(--sage-dark);
   --icon-image: url("./assets/scopus.svg");
 }
 
@@ -460,7 +460,7 @@ table.details tr:hover td {
 table.rec td.yr {
   width: 162px;
   padding-top: 15px;
-  color: var(--coral-dark);
+  color: var(--sage-dark);
   font-size: 11.5px;
   font-weight: 800;
   letter-spacing: 0.045em;
@@ -470,7 +470,7 @@ table.rec td.yr {
 table.rec td.no {
   width: 42px;
   padding-top: 15px;
-  color: var(--coral-dark);
+  color: var(--sage-dark);
   font-size: 12px;
   font-weight: 800;
 }
@@ -560,7 +560,7 @@ table.details th {
 }
 
 .reference-number {
-  color: var(--coral-dark);
+  color: var(--sage-dark);
   font-weight: 800;
 }
 
@@ -620,13 +620,13 @@ footer .wrap {
   max-width: 700px;
   margin: 60px auto;
   padding: 24px;
-  border-left: 5px solid var(--coral);
+  border-left: 5px solid var(--sage);
   border-radius: 12px;
   background: #fff;
 }
 
 :focus-visible {
-  outline: 3px solid var(--coral-dark);
+  outline: 3px solid var(--sage-dark);
   outline-offset: 3px;
 }
 
@@ -703,7 +703,7 @@ footer .wrap {
 
   .tab.on {
     border-bottom-color: var(--line);
-    border-left-color: var(--coral);
+    border-left-color: var(--sage);
   }
 
   main {

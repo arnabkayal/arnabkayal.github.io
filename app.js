@@ -29,10 +29,7 @@ const formatPublicationAuthors = (value = "") =>
 
 function render(data) {
   const p = data.profile;
-  const lastUpdated = new Intl.DateTimeFormat("en-US", {
-    month: "long",
-    year: "numeric",
-  }).format(new Date());
+  const lastUpdated = data.site.lastUpdated;
 
   const briefCv = [
     ...data.experience.map(

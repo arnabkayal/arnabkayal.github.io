@@ -1,7 +1,8 @@
 {
   "site": {
     "title": "Arnab Kayal | অর্ণব কয়াল",
-    "description": "Academic portfolio of Arnab Kayal."
+    "description": "Academic portfolio of Arnab Kayal.",
+    "lastUpdated": "October 2026"
   },
   "profile": {
     "name": "Arnab Kayal",
@@ -26,7 +27,7 @@
     "coverWebp": "assets/research-cover.webp",
     "coverWebpSmall": "assets/research-cover-840.webp",
     "cv": "assets/Arnab_Kayal_CV.pdf",
-    "intro": "My research focuses on developing spectral projection methods for solving integral and integro-differential equations. I also study spectral approximations of integral operators; neural integral and integral and integro-differential equations with spectral solvers.",
+    "intro": "My research focuses on developing spectral projection methods for solving integral and integro-differential equations. I also study spectral approximations of integral operators. Recently, I have started working on neural integral and integro-differential equations using spectral solvers.",
     "researchLine": "Spectral Projection Methods · Integral Equations · Scientific Computing"
   },
   "research": {
@@ -43,7 +44,7 @@
       "institution": "Vellore Institute of Technology (VIT) Chennai",
       "institutionUrl": "https://chennai.vit.ac.in/",
       "location": "Chennai, India",
-      "period": "Current"
+      "period": "June 2026 - Till date"
     },
     {
       "role": "Project Associate",
@@ -90,14 +91,14 @@
       "institution": "Sarisha Ramakrishna Mission Sikshamandir",
       "location": "Sarisha, India",
       "period": "2013",
-      "details": ["Percentage: 78.20"]
+      "details": []
     },
     {
       "degree": "Secondary Education",
       "institution": "Sarisha Ramakrishna Mission Sikshamandir",
       "location": "Sarisha, India",
       "period": "2011",
-      "details": ["Percentage: 77.50"]
+      "details": []
     }
   ],
   "publications": [
@@ -214,8 +215,7 @@
     {"text": "Attended Teacher’s Enrichment Workshop on ‘Linear Algebra & its applications’, organised by IIT Jodhpur, India.", "date": "Nov. 19 - Dec. 13, 2020"}
   ],
   "teachingAtVit": [
-    {"course": "Multivariable Calculus and Differential Equations", "code": "BAMAT101", "audience": "B.Tech · Theory", "term": "Fall Semester, 2026-27"},
-    {"course": "Multivariable Calculus and Differential Equations", "code": "BAMAT101", "audience": "B.Tech · Lab", "term": "Fall Semester, 2026-27"},
+    {"course": "Multivariable Calculus and Differential Equations", "code": "BAMAT101", "audience": "B.Tech · Theory + Lab", "term": "Fall Semester, 2026-27"},
     {"course": "Discrete Mathematics and Graph Theory", "code": "IAMAT202", "audience": "Integrated M.Tech. · Theory", "term": "Fall Semester, 2026-27"}
   ],
   "teaching": [
