@@ -30,8 +30,14 @@ const formatPublicationAuthors = (value = "") =>
 function render(data) {
   const p = data.profile;
   const lastUpdated = data.site.lastUpdated;
+  const affiliation = [p.role, p.department, p.institutionShortName].map(escapeHtml);
+  const department = link(p.department, p.departmentUrl);
+  const institution = link(p.institution, p.institutionUrl);
+  const emails = p.emails.map(mail).join(" · ");
 
   const briefCv = [
+    `<li><b>${escapeHtml(p.role)}</b>, ${department}, ${institution}, ${escapeHtml(p.location)}, Present
+      ${p.adviser ? `<span class="sub">Adviser: ${link(p.adviser, p.adviserUrl)}</span>` : ""}</li>`,
     ...data.experience.map(
       (item) => `<li><b>${escapeHtml(item.role)}</b>, ${link(item.institution, item.institutionUrl)},
         ${escapeHtml(item.location)}, ${escapeHtml(item.period)}</li>`,
@@ -152,7 +158,7 @@ function render(data) {
     <header class="cover">
       <div class="wrap cover-content">
         <h1>${escapeHtml(p.name)}</h1>
-        <p class="cover-role">${escapeHtml(p.role)} <span>·</span> VIT Chennai <span>·</span> Mathematics</p>
+        <p class="cover-role">${affiliation.join(" <span>·</span> ")}</p>
         <p class="cover-focus">${escapeHtml(p.researchLine)}</p>
       </div>
     </header>
@@ -178,9 +184,9 @@ function render(data) {
           <div class="who">
             <h2 class="plain">${escapeHtml(p.name)}</h2>
             <p class="role">${escapeHtml(p.role)}</p>
-            <p>${link(p.institution, p.institutionUrl)}</p>
+            <p>${department}<br />${institution}</p>
             <p>${escapeHtml(p.location)}</p>
-            <p>${mail(p.email)} &nbsp;|&nbsp; ${phone(p.phone, p.phoneLink)}</p>
+            <p>${emails}<br />${phone(p.phone, p.phoneLink)}</p>
             <div class="links">
               <a class="profile-icon-link" href="${href(p.orcidUrl)}" target="_blank" rel="noopener noreferrer" aria-label="ORCID profile" title="ORCID">
                 <span class="profile-icon orcid-icon" aria-hidden="true"></span>
@@ -254,8 +260,8 @@ function render(data) {
         <h2>Contact</h2>
         <div class="contact-card">
           <p><b>${escapeHtml(p.name)}</b><br />${escapeHtml(p.role)}<br />
-            ${link(p.institution, p.institutionUrl)}<br />${escapeHtml(p.location)}</p>
-          <p>Email: ${mail(p.email)}<br />Phone: ${phone(p.phone, p.phoneLink)}<br />
+            ${department}<br />${institution}<br />${escapeHtml(p.location)}</p>
+          <p>Emails: ${emails}<br />Phone: ${phone(p.phone, p.phoneLink)}<br />
             ORCID: ${link(p.orcid, p.orcidUrl)}</p>
           <p><a class="cv-link" href="${asset(p.cv)}" target="_blank" rel="noopener noreferrer">Open full curriculum vitae (PDF)</a></p>
         </div>
@@ -264,7 +270,7 @@ function render(data) {
     </div></main>
 
     <footer><div class="wrap"><span>© ${new Date().getFullYear()} ${escapeHtml(p.name)}</span>
-      <span>${escapeHtml(p.role)} · VIT Chennai · Mathematics · Last updated ${escapeHtml(lastUpdated)}</span></div></footer>
+      <span>${affiliation.join(" · ")} · Last updated ${escapeHtml(lastUpdated)}</span></div></footer>
   `;
 
   document.title = data.site.title;

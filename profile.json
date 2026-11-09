@@ -1,17 +1,22 @@
 {
   "site": {
     "title": "Arnab Kayal | অর্ণব কয়াল",
-    "description": "Academic portfolio of Arnab Kayal.",
-    "lastUpdated": "October 2026"
+    "description": "Academic portfolio of Arnab Kayal, National Post Doctoral Fellow in the Department of Mathematics at Indian Institute of Technology Guwahati.",
+    "lastUpdated": "November 2026"
   },
   "profile": {
     "name": "Arnab Kayal",
     "shortName": "AK",
-    "role": "Assistant Professor",
-    "institution": "Vellore Institute of Technology (VIT) Chennai",
-    "institutionUrl": "https://chennai.vit.ac.in/",
-    "location": "Chennai, India",
-    "email": "arnab.kayal@gmail.com",
+    "role": "National Post Doctoral Fellow",
+    "adviser": "Prof. Natesan Srinivasan",
+    "adviserUrl": "https://www.iitg.ac.in/natesan/index.html",
+    "department": "Department of Mathematics",
+    "departmentUrl": "https://www.iitg.ac.in/maths/",
+    "institution": "Indian Institute of Technology Guwahati",
+    "institutionShortName": "IIT Guwahati",
+    "institutionUrl": "https://www.iitg.ac.in/",
+    "location": "Guwahati, Assam, India",
+    "emails": ["arnab.kayal@gmail.com", "arnab.kayal@iitg.ac.in"],
     "phone": "+91 90931 29375",
     "phoneLink": "+919093129375",
     "orcid": "0009-0004-1568-2750",
@@ -28,10 +33,10 @@
     "coverWebpSmall": "assets/research-cover-840.webp",
     "cv": "assets/Arnab_Kayal_CV.pdf",
     "intro": "My research focuses on developing spectral projection methods for solving integral and integro-differential equations. I also study spectral approximations of integral operators. Recently, I have started working on neural integral and integro-differential equations using spectral solvers.",
-    "researchLine": "Spectral Projection Methods · Integral Equations · Scientific Computing"
+    "researchLine": "Spectral Methods · Scientific Computing · Scientific Machine Learning"
   },
   "research": {
-    "broadArea": "Numerical Functional Analysis and Scientific Computing",
+    "broadArea": "Numerical Functional Analysis, Scientific Computing and Scientific Machine Learning",
     "interests": [
       "Spectral projection methods for integral, integro-differential and fractional differential equations",
       "Spectral approximation of integral operators",
@@ -44,7 +49,7 @@
       "institution": "Vellore Institute of Technology (VIT) Chennai",
       "institutionUrl": "https://chennai.vit.ac.in/",
       "location": "Chennai, India",
-      "period": "June 2026 - Till date"
+      "period": "June 2026 - October 2026"
     },
     {
       "role": "Project Associate",
